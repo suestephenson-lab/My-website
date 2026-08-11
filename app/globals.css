@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf6f0;
+  color: #14213d;
+}
+
+@layer utilities {
+  .rule {
+    border-top-width: 1px;
+    border-color: rgba(20, 33, 61, 0.15);
+  }
+
+  .rule-light {
+    border-top-width: 1px;
+    border-color: rgba(250, 246, 240, 0.2);
+  }
+
+  .container-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
